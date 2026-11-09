@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+
+.cactus-classical-serif-regular {
+  font-family: "Cactus Classical Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.decor-vert-gochi-hand {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+/* corps de la page */
+body {
+  background-color: #dff0a2;
+  padding: 0%;
+  margin: 0%;
+}
+
+body .page {
+  margin: 20px 80px;
+}
+
+/* barre haute */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: #91a644;
+  align-items: center;
+}
+
+/* ce que contient la barre */
+nav .barre_nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* marge de droite */
+nav .barre_nav a {
+  margin-top: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* les bouttons */
+nav .bouttons button {
+  margin-top: 5px;
+  padding: 5px 5px;
+  border: none;
+  background-color: #dff0a2;
+  margin-right: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.nom_entreprise {
+  font-family: "Gochi Hand", cursive;
+  font-style: normal;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.imagelogo {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  margin-top: 0px;
+}
+
+/*----------------------------*/
+
+/* premier apperçu */
+header {
+  margin-top: 40px;
+  background: url("https://images.unsplash.com/photo-1472214103451-9374bd1c798e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1500px 750px;
+}
+header h1 {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  padding: 150px;
+}
+
+body .produits {
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
+}
+
+/*article du moment */
+.produits {
+  padding: 5px 5px;
+  background-color: #91a644;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.article_du_moment #h2 {
+  color: white;
+}
+.top {
+  background-color: #d2ac8b;
+  height: 200px;
+  flex-shrink: 0;
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin: 20px;
+  justify-content: left;
+  cursor: pointer;
+}
+
+.texte {
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.nom_categorie {
+  margin-left: 10px;
+}
+
+.titre {
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.image {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 175px;
+  height: 175px;
+}
+
+.image_deroulant {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  width: 70px;
+  height: 70px;
+}
+
+.categorie_autre {
+  background-color: #e9ecef;
+  height: 460px;
+  padding: 20px;
+  overflow: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px;
+}
+
+.categorie {
+  background-color: #d2ac8b;
+  height: 96px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  cursor: pointer;
+}
+
+/* pied de page */
+footer {
+  background-color: #a67951;
+  padding: 25px 100px;
+}
+
+footer .colonnes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  cursor: pointer;
+}

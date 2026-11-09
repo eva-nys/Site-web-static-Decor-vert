@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Décor Vert - Formulaire de contact</title>
+        <link href="styles/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+
+
+        <nav>
+        <!-- barre du haut de page -->
+        <div class="barre_nav">
+          <div>
+            <img
+                class="imagelogo"
+                src="images/Logo.png"
+                alt="logo"
+            />
+            </div>
+            <a>Les créations</a>
+            <a>Les Nouvautées</a>
+        </div>
+        <div class="nom_entreprise"><h2>Décor Vert</h2></div>
+        <div class="bouttons">
+            
+            <button class="connexion">Se connecter</button>
+            <button class="inscription">S'enregistrer</button>
+            <form action="login_form.html" method="get">
+                <button type="submit">English</button>
+            </form>
+        </div>
+        <!-------------------------->
+        </nav>
+
+
+        <section class="section_champs_formulaire">
+            <!-- Le formulaire de la page -->
+            <form action="formulaire_envoyer.html" method="get">
+                <h1>Décor Vert - Formulaire de contact</h1>
+                <label for="nom">Nom :</label>
+                <input id="nom" type="text"  name="nom" required>
+                <label for="prenom">Prénom :</label>
+                <input id="prenom" type="text"  name="prenom" required>
+                <br>
+                <br>
+                <label for="mail">Adresse mail :</label>
+                <input id="mail" type="text"  name="mail" required>
+                <br>
+                <br>
+                <label for="objet">Objet :</label>
+                <input id="objet" type="text"  name="objet" required>
+                <br>
+                <br>
+                <label for="message">Message :</label>
+                <br>
+                <input id="message" type="text"  name="message" class="taille_champs_message" required>
+                <br>
+                <br>
+                <input id="conditions" type="checkbox" name="conditions" required>
+                <label for="conditions">J'accepte que mon e-mail soit stocké pour apporter une réponse</label>
+                <br>
+                <br>
+                <button type="reset">Annule</button>
+                <button type="submit">Valide</button>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h6>Tout les champs doivent obligatoirement être complété</h6>
+            </form>
+        </section>
+
+
+        <!-- bas/pied de la page -->
+    <footer>
+      <h5>pour plus d'information :</h5>
+      <div class="colonnes">
+        <div class="colonne">
+          <p>Relations clients</p>
+          <p>Relations Investisseurs</p>
+          <p>Modes de lecture</p>
+          <p>Mentions légales</p>
+        </div>
+        <div class="colonne">
+          <p>FAQ</p>
+          <p>location</p>
+          <p>Conditions d'utilisation</p>
+          <p><a href="travail.html">Présentation de Décor vert</a></p>
+        </div>
+        <div class="colonne">
+          <p>Compte</p>
+          <p>S'enregistrer</p>
+          <p>Se connecter</p>
+          <p><a href="formulaire_contact.html">Nous contacter</a></p>
+        </div>
+      </div>
+      <p>Décor Vert, France</p>
+    </footer>
+    </body>
+</html>

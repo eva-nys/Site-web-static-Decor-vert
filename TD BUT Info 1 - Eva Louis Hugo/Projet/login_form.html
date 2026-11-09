@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Décor Vert - Fogin Form</title>
+        <link href="styles/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+
+
+        <nav>
+        <!-- barre du haut de page -->
+        <div class="barre_nav">
+          <div>
+            <img
+                class="imagelogo"
+                src="images/Logo.png"
+                alt="logo"
+            />
+            </div>
+            <a>The creations</a>
+            <a>What's New</a class="langue">
+        </div>
+        <div class="nom_entreprise"><h2>Décor Vert</h2></div>
+        <div class="bouttons">
+            
+            <button class="connexion">Login</button>
+            <button class="inscription">Register</button>
+            <form action="formulaire_contact.html" method="get">
+                <button type="submit">Français</button>
+            </form>
+        </div>
+        <!-------------------------->
+        </nav>
+
+
+        <section class="section_champs_formulaire">
+            <!-- Le formulaire de la page -->
+            <form action="form_sent.html" method="get">
+                <h1>Décor Vert - Fogin Form</h1>
+                <label for="nom">Name :</label>
+                <input id="nom" type="text"  name="nom" required>
+                <label for="prenom">First name :</label>
+                <input id="prenom" type="text"  name="prenom" required>
+                <br>
+                <br>
+                <label for="mail">E-mail :</label>
+                <input id="mail" type="text"  name="mail" required>
+                <br>
+                <br>
+                <label for="objet">Subject :</label>
+                <input id="objet" type="text"  name="objet" required>
+                <br>
+                <br>
+                <label for="message">Message :</label>
+                <br>
+                <input id="message" type="text"  name="message" class="taille_champs_message" required>
+                <br>
+                <br>
+                <input id="conditions" type="checkbox" name="conditions" required>
+                <label for="conditions">I agree to have my email address stored in order to provide a response.</label>
+                <br>
+                <br>
+                <button type="reset">Delete</button>
+                <button type="submit">Valid</button>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h6>All fields must be completed.</h6>
+            </form>
+        </section>
+
+
+        <!-- bas/pied de la page -->
+    <footer>
+      <h5>For more information :</h5>
+      <div class="colonnes">
+        <div class="colonne">
+          <p>Customer Relations</p>
+          <p>Investor Relations</p>
+          <p>Reading modes</p>
+          <p>Legal notice</p>
+        </div>
+        <div class="colonne">
+          <p>FAQ</p>
+          <p>location</p>
+          <p>Terms of Use</p>
+          <p><a href="travail.html">Presentation of Décor Vert</a></p>
+        </div>
+        <div class="colonne">
+          <p>Account</p>
+          <p>Register</p>
+          <p>Login</p>
+          <p><a href="formulaire_contact.html">Contact us</a></p>
+        </div>
+      </div>
+      <p>Décor Vert, France</p>
+    </footer>
+    </body>
+</html> 
+
